@@ -1,34 +1,77 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand");
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Quicksand";
 }
 
-#site-logo {
-    height: 50px;
-    width: 50px;
-    display: inline;
+.home-logo {
+    width: 180px;
+    height: 100px;
+}
+
+input[type=text] {
+    height: 3em;
+    max-width: 18em;
+    border-radius: 2%;
+}
+input[type=text]:focus {
+    border: 0.18em solid black;
 }
 
 .navbar-container {
-    background-color: black;   
-    align-items: center;
-    z-index: 999;
+    background-color: #FCE3B6;   
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .navbar {
-    height: 80px;
+    height: 12em;
+    display: block;
+    align-items: center;
+    justify-content: center; 
+    padding: 2em;
+}
+
+.navbar-top {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.navbar-top {
+.navbar-top-right {
     display: flex;
-    padding: 0.2em;
+    gap: 3em;
+    font-size: 1.3em;
+    align-items: center;
+}
+
+.navlinks {
+    position: static;
+    color: rgb(54, 77, 5);
+    background-color: #F2A65A;
+    padding: 5px;
+    border-radius: 10%;
+    text-decoration: none;
+}
+
+.navlinks:hover {
+    text-decoration: underline;
+    background: #e98d46;
+    transition: 0.5s;
 }
 
 .navbar-bottom {
     display: flex;
-    padding: 0.2em;
+    gap: 6em;
+    padding: 0em 0em 0em  1.8em;
+    justify-content: flex-start;
+    text-decoration: none;
 }
+
+.recipes:hover{
+    text-decoration: underline;
+    text-shadow: black 1px 0 1px;
+}
+
