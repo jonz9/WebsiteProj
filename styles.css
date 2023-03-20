@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Quicksand");
+@import url("https://fonts.googleapis.com/css?family=Cormorant");
 
 * {
     margin: 0;
@@ -23,7 +24,7 @@ input[type=text]:focus {
 
 .navbar-container {
     background-color: #FCE3B6;   
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    filter: drop-shadow(0px 4px 4px #9b3d0b);
 }
 
 .navbar {
@@ -40,9 +41,20 @@ input[type=text]:focus {
     align-items: center;
 }
 
+.navbar-top-left {
+    display: flex; 
+    align-items: center;
+}
+.navbar-top-left > h2 {
+    font-size: 230%;
+    font-family: "Cormorant";
+    color: #C34C25;
+    text-decoration: overline;
+}
+
 .navbar-top-right {
     display: flex;
-    gap: 3em;
+    gap: 1.5em;
     font-size: 1.3em;
     align-items: center;
 }
@@ -50,6 +62,7 @@ input[type=text]:focus {
 .navlinks {
     position: static;
     color: rgb(54, 77, 5);
+    font-size: 120%;
     background-color: #F2A65A;
     padding: 5px;
     border-radius: 10%;
@@ -66,12 +79,20 @@ input[type=text]:focus {
     display: flex;
     gap: 6em;
     padding: 0em 0em 0em  1.8em;
-    justify-content: flex-start;
-    text-decoration: none;
+    justify-content: space-around;
+}
+
+.recipes {
+     text-decoration: none;
+     color: #e98d46;
+     font-size: 140%;
+     font-weight: bolder;
+     text-shadow: #a524d0 1px 1px 1px;
 }
 
 .recipes:hover{
     text-decoration: underline;
-    text-shadow: black 1px 0 1px;
+    font-weight: bolder;
+    filter: drop-shadow(2px 4px 8px #d5bded);
 }
 
