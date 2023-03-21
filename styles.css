@@ -23,6 +23,8 @@ input[type=text]:focus {
 }
 
 .navbar-container {
+    position: fixed;
+    width: 100%;
     background-color: #FCE3B6;   
     filter: drop-shadow(0px 4px 4px #9b3d0b);
 }
@@ -50,6 +52,7 @@ input[type=text]:focus {
     font-family: "Cormorant";
     color: #C34C25;
     text-decoration: overline;
+    text-shadow: #963616 1px 1px 1px;
 }
 
 .navbar-top-right {
@@ -95,4 +98,69 @@ input[type=text]:focus {
     font-weight: bolder;
     filter: drop-shadow(2px 4px 8px #d5bded);
 }
+
+.welcome-page {
+    height: 100vh;
+    width: 100%;
+    background-color: #ffecdf;
+    color: #C34C25;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    z-index: 1;
+}
+
+.welcome-page > h1 {
+    font-size: 3vw;
+    font-family: "Coronmont";
+}
+
+.welcome-page > h4 {
+    font-size: 1.9vw;
+    font-family: "Cormorant";
+}
+
+.footer {
+    position: fixed;
+    width: 100%;
+    background-color: black;
+    color: #ffecdf;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    bottom: 0;
+    left: 0;
+    padding: 0.4em;
+}
+
+.social-links {
+    height: 1.5em;
+    width: 1.5em;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.6em;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(167, 167, 167);
+}
+
+::-webkit-scrollbar-thumb {
+    background: #723f01;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #552f00;
+}
+
 
