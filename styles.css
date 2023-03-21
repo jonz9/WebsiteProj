@@ -63,7 +63,6 @@ input[type=text]:focus {
 }
 
 .navlinks {
-    position: static;
     color: rgb(54, 77, 5);
     font-size: 120%;
     background-color: #F2A65A;
@@ -89,14 +88,14 @@ input[type=text]:focus {
      text-decoration: none;
      color: #e98d46;
      font-size: 140%;
-     font-weight: bolder;
-     text-shadow: #a524d0 1px 1px 1px;
+     text-shadow: #E9944A 1px 1px 1px;
 }
 
 .recipes:hover{
     text-decoration: underline;
-    font-weight: bolder;
-    filter: drop-shadow(2px 4px 8px #d5bded);
+    color: #8b5008;
+    text-shadow: #482904 1px 1px 1px;
+    transition: 0.2s;
 }
 
 .welcome-page {
@@ -123,7 +122,7 @@ input[type=text]:focus {
 }
 
 .footer {
-    position: fixed;
+    position: relative;
     width: 100%;
     background-color: black;
     color: #ffecdf;
@@ -148,7 +147,7 @@ input[type=text]:focus {
 }
 
 ::-webkit-scrollbar {
-    width: 8px;
+    width: 20px;
 }
 
 ::-webkit-scrollbar-track {
