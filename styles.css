@@ -8,6 +8,11 @@
     font-family: "Quicksand";
 }
 
+.body {
+    display: flex;
+    flex-direction: column;
+}
+
 .home-logo {
     width: 180px;
     height: 100px;
@@ -45,8 +50,8 @@
 .navbar {
     height: 12em;
     display: block;
-    align-items: center;
-    justify-content: center; 
+    /* align-items: center;
+    justify-content: center;  */
     padding: 2em;
 }
 
@@ -111,30 +116,38 @@
     transition: 0.2s;
 }
 
-.welcome-page {
+.home-page {
     height: 100vh;
-    width: 100%;
-    background-color: #ffecdf;
+    background-size: cover;
+    background-image: url("images/food-background.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* background-color: #ffecdf; */
     color: #C34C25;
-    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-transform: uppercase;
-    z-index: 1;
 }
 
-.welcome-page > h1 {
-    font-size: 3vw;
+.home-page h1, h4 {
+    z-index: 10;
+    font-size: 5em;
+    font-family: "Coronmont";
+}
+/* .home-page > h1 {
+    z-index: 10;
+    font-size: 5em;
     font-family: "Coronmont";
 }
 
-.welcome-page > h4 {
-    font-size: 1.9vw;
+.home-page > h4 {
+    z-
+    font-size: 3.5em;
     font-family: "Cormorant";
-}
+} */
 
 .footer {
+    margin-top: auto;
     position: static; 
     width: 100%;
     background-color: black;
