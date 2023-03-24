@@ -127,24 +127,29 @@
 
 .home-description {
     height: 100vh;
+    width: 100%;
     margin: 1.5em;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #ffecdf;
-    opacity: 0.6;
+    background-color: rgba(255, 236, 223, 0.8);
+    border: 0.05em solid black;
     color: #C34C25;
-}
+} 
 
-.home-page h1, h4 {
-    font-size: 5em;
+.home-description h1 {
+    font-size: 3.5em;
+    font-family: "Coronmont";
+}
+.home-description h4 {
+    font-size: 2em;
     font-family: "Coronmont";
 }
 
 .footer {
     margin-top: auto;
-    position: static; 
+    position: relative; 
     width: 100%;
     background-color: black;
     color: #ffecdf;
@@ -159,13 +164,14 @@
 .social-links {
     height: 1.5em;
     width: 1.5em;
+    border-radius: 50%;
 }
 
 .socials {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 0.8em;
+    gap: 0.4em;
 }
 
 ::-webkit-scrollbar {
