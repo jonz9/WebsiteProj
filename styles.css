@@ -41,7 +41,7 @@
 }
 
 .navbar-container {
-    position: sticky;
+    /* position: sticky; */
     width: 100%;
     background-color: #FCE3B6;   
     filter: drop-shadow(0px 4px 4px #9b3d0b);
@@ -116,23 +116,25 @@
 }
 
 .home-page {
-    height: 100vh;
     display: flex;
+    height: 100vh;
     background-size: cover;
     background-image: url("images/food-background.png");
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    /* background-color: #ffecdf; */
+    background-attachment: fixed; 
+    background-color: #ffecdf;
 }
 
 .home-description {
+    height: 100vh;
+    margin: 1.5em;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     background-color: #ffecdf;
     opacity: 0.6;
     color: #C34C25;
-    justify-content: center;
-    align-items: center;
 }
 
 .home-page h1, h4 {
