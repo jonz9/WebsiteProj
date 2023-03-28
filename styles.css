@@ -65,7 +65,7 @@
     align-items: center;
 }
 .navbar-top-left > h2 {
-    font-size: 230%;
+    font-size: 4ch;
     font-family: "Cormorant";
     color: #C34C25;
     text-decoration: overline;
@@ -81,7 +81,7 @@
 
 .navlinks {
     color: rgb(54, 77, 5);
-    font-size: 120%;
+    font-size: 2ch;
     background-color: #F2A65A;
     padding: 5px;
     border-radius: 10%;
