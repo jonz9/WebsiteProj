@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Bungee';
+  font-family: 'Quicksand';
 }
 
 .body {
@@ -63,7 +63,7 @@
   align-items: center;
 }
 .navbar-top-left > h2 {
-  font-size: 3ch;
+  font-size: 4ch;
   color: #C34C25;
   text-decoration: overline;
   text-shadow: #963616 1px 1px 1px;
@@ -78,7 +78,7 @@
 
 .navlinks {
   color: rgb(54, 77, 5);
-  font-size: 1ch;
+  font-size: 2ch;
   background-color: #F2A65A;
   padding: 0.2em;
   border-radius: 10%;
