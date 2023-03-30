@@ -1,193 +1,173 @@
-@import url("https://fonts.googleapis.com/css?family=Quicksand");
-@import url("https://fonts.googleapis.com/css?family=Cormorant");
-
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Quicksand";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Bungee';
 }
 
 .body {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .home-logo {
-    width: 180px;
-    height: 100px;
+  width: 180px;
+  height: 100px;
 }
 
 .searchbar button {
-    border: none;
-    height: 28px;
-    width: 28px;
-    padding: 0.3em 0em 0em 0em;
-    background-color: white;
-    border-radius: 50%;
+  border: none;
+  height: 28px;
+  width: 28px;
+  padding: 0.3em 0em 0em 0em;
+  background-color: white;
+  border-radius: 50%;
 }
 .searchbar {
-    display: flex;
-    background-color: white;
-    height: 2em;
-    max-width: 20em;
-    padding: 0.3em;
-    border-radius: 5%;
-    border: black solid 2.2px;
+  display: flex;
+  background-color: white;
+  height: 2em;
+  max-width: 20em;
+  padding: 0.3em;
+  border-radius: 5%;
+  border: black solid 2.2px;
 }
 .searchbar input {
-    outline: none;
-    border: none;
+  outline: none;
+  border: none;
 }
 
 .navbar-container {
-    /* position: sticky; */
-    width: 100%;
-    background-color: #FCE3B6;   
-    filter: drop-shadow(0px 4px 4px #9b3d0b);
-    z-index: 100;
+  /* position: sticky; */
+  width: 100%;
+  background-color: #FCE3B6;   
+  filter: drop-shadow(0px 4px 4px #9b3d0b);
+  z-index: 100;
 }
 
 .navbar {
-    height: 12em;
-    display: block;
-    padding: 2em;
+  height: 12em;
+  display: block;
+  padding: 2em;
+  align-items: center;
 }
 
 .navbar-top {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .navbar-top-left {
-    display: flex; 
-    align-items: center;
+  display: flex; 
+  align-items: center;
 }
 .navbar-top-left > h2 {
-    font-size: 4ch;
-    font-family: "Cormorant";
-    color: #C34C25;
-    text-decoration: overline;
-    text-shadow: #963616 1px 1px 1px;
+  font-size: 3ch;
+  color: #C34C25;
+  text-decoration: overline;
+  text-shadow: #963616 1px 1px 1px;
 }
 
 .navbar-top-right {
-    display: flex;
-    gap: 1.5em;
-    font-size: 1.3em;
-    align-items: center;
+  display: flex;
+  gap: 1.5em;
+  font-size: 1.3em;
+  align-items: center;
 }
 
 .navlinks {
-    color: rgb(54, 77, 5);
-    font-size: 2ch;
-    background-color: #F2A65A;
-    padding: 5px;
-    border-radius: 10%;
-    text-decoration: none;
+  color: rgb(54, 77, 5);
+  font-size: 1ch;
+  background-color: #F2A65A;
+  padding: 0.2em;
+  border-radius: 10%;
+  text-decoration: none;
 }
 
 .navlinks:hover {
-    text-decoration: underline;
-    background: #e98d46;
-    transition: 0.5s;
+  text-decoration: underline;
+  background: #e98d46;
+  transition: 0.5s;
 }
 
 .navbar-bottom {
-    display: flex;
-    gap: 6em;
-    padding: 0em 0em 0em  1.8em;
-    justify-content: space-around;
+  display: flex;
+  gap: 6em;
+  padding: 0em 0em 0em  1.8em;
+  justify-content: space-around;
 }
 
 .recipes {
-     text-decoration: none;
-     color: #e98d46;
-     font-size: 140%;
-     text-shadow: #E9944A 1px 1px 1px;
+  text-decoration: none;
+  color: #e98d46;
+  font-size: 140%;
+  text-shadow: #E9944A 1px 1px 1px;
 }
 
 .recipes:hover{
-    text-decoration: underline;
-    color: #8b5008;
-    text-shadow: #482904 1px 1px 1px;
-    transition: 0.2s;
+  text-decoration: underline;
+  color: #8b5008;
+  text-shadow: #482904 1px 1px 1px;
+  transition: 0.2s;
 }
 
 .home-page {
-    display: flex;
-    height: 100vh;
-    background-size: cover;
-    background-image: url("images/food-background.png");
-    background-repeat: no-repeat;
-    background-attachment: fixed; 
-    background-color: #ffecdf;
+  display: flex;
+  height: 100vh;
+  background-size: cover;
+  background-image: url("images/food-background.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-color: #ffecdf;
 }
 
 .home-description {
-    height: 100vh;
-    width: 100%;
-    margin: 1.5em;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(255, 236, 223, 0.8);
-    border: 0.05em solid black;
-    color: #C34C25;
+  height: 100vh;
+  width: 100%;
+  margin: 1.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 236, 223, 0.8);
+  border: 0.05em solid black;
+  color: #C34C25;
 } 
 
 .home-description h1 {
-    font-size: 3.5em;
-    font-family: "Coronmont";
+  font-size: 3.5em;
+  font-family: "Coronmont";
 }
 .home-description h4 {
-    font-size: 2em;
-    font-family: "Coronmont";
+  font-size: 2em;
+  font-family: "Coronmont";
 }
 
 .footer {
-    margin-top: auto;
-    position: relative; 
-    width: 100%;
-    background-color: black;
-    color: #ffecdf;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    bottom: 0;
-    left: 0;
-    padding: 0.4em;
+  margin-top: auto;
+  position: relative; 
+  width: 100%;
+  background-color: black;
+  color: #ffecdf;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  bottom: 0;
+  left: 0;
+  padding: 0.4em;
 }
 
 .social-links {
-    height: 1.5em;
-    width: 1.5em;
-    border-radius: 50%;
+  height: 1.5em;
+  width: 1.5em;
+  border-radius: 50%;
 }
 
 .socials {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 0.4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.4em;
 }
-
-::-webkit-scrollbar {
-    width: 20px;
-}
-
-::-webkit-scrollbar-track {
-    background: rgb(167, 167, 167);
-}
-
-::-webkit-scrollbar-thumb {
-    background: #723f01;
-}
-
-::-webkit-scrollbar-thumb:hover {
-    background: #552f00;
-}
-
 
