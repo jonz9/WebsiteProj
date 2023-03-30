@@ -38,11 +38,9 @@
 }
 
 .navbar-container {
-  /* position: sticky; */
   width: 100%;
-  background-color: #FCE3B6;   
-  filter: drop-shadow(0px 4px 4px #9b3d0b);
-  z-index: 100;
+  background-color: #5a1010;   
+  filter: drop-shadow(0px 4px 4px #000000);
 }
 
 .navbar {
@@ -64,9 +62,8 @@
 }
 .navbar-top-left > h2 {
   font-size: 4ch;
-  color: #C34C25;
+  color: #E8E9EB;
   text-decoration: overline;
-  text-shadow: #963616 1px 1px 1px;
 }
 
 .navbar-top-right {
@@ -77,9 +74,9 @@
 }
 
 .navlinks {
-  color: rgb(54, 77, 5);
+  color: #E8E9EB;
   font-size: 2ch;
-  background-color: #F2A65A;
+  background-color: #200202;
   padding: 0.2em;
   border-radius: 10%;
   text-decoration: none;
@@ -87,8 +84,8 @@
 
 .navlinks:hover {
   text-decoration: underline;
-  background: #e98d46;
-  transition: 0.5s;
+  background: #c55555;
+  transition: 0.4s;
 }
 
 .navbar-bottom {
@@ -100,15 +97,13 @@
 
 .recipes {
   text-decoration: none;
-  color: #e98d46;
+  color: #e0d5dc;
   font-size: 140%;
-  text-shadow: #E9944A 1px 1px 1px;
 }
 
 .recipes:hover{
   text-decoration: underline;
-  color: #8b5008;
-  text-shadow: #482904 1px 1px 1px;
+  color: #ffa8a8a9;
   transition: 0.2s;
 }
 
@@ -119,7 +114,6 @@
   background-image: url("images/food-background.png");
   background-repeat: no-repeat;
   background-attachment: fixed; 
-  background-color: #ffecdf;
 }
 
 .home-description {
@@ -130,9 +124,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgba(255, 236, 223, 0.8);
+  background-color: rgba(22, 18, 18, 0.8);
   border: 0.05em solid black;
-  color: #C34C25;
+  color: #E0DFD5;
 } 
 
 .home-description h1 {
