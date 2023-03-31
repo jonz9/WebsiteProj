@@ -109,7 +109,6 @@
 
 .home-page {
   display: flex;
-  height: 100vh;
   background-size: cover;
   background-image: url("images/food-background.png");
   background-repeat: no-repeat;
